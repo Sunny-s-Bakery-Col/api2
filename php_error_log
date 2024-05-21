@@ -1,0 +1,1821 @@
+[21-May-2024 09:16:03 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:71
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(71): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(17): GetModel::getDataFilter('Relations', 'username_usuari...', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(17): GetController::getDataFilter('Relations', 'username_usuari...', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(21): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 71
+[21-May-2024 10:15:31 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:16:44 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:16:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:16:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:17:18 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:17:19 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:17:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:17:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:17:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:17:21 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:18:29 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:19:25 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:19:26 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:19:26 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:19:27 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:19:27 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:19:27 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:20:02 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:20:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:20:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:21:29 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:21:29 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:21:29 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:21:29 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:21:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:24:19 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:24:26 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:24:26 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:26:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:26:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:26:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:26:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:26:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:26:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:26:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:26:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:27:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:27:09 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:27:10 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:27:10 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:33:14 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:33:15 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:33:16 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:33:16 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:33:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:33:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:35:22 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:35:23 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:35:24 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:35:41 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:35:44 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:35:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:35:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:35:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(57): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:35:54 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:35:55 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:35:55 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:35:55 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:37:15 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:37:16 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:37:16 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:37:16 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:37:17 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:37:17 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(41): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:45:58 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(66): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:27 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:27 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:28 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:28 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:29 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:29 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:29 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:31 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:31 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:31 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:31 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:31 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:31 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:33 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('Relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:46:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'per\xC3\xA9z', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'per\xC3\xA9z', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:46:44 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:46:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:46:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:46:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:46:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:46:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:46:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:46:58 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:46:58 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:46:59 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:46:59 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:46:59 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:46:59 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:46:59 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:47:00 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:47:39 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:47:39 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:47:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:47:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:47:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:47:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:47:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:47:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:47:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:47:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:47:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:47:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:47:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:47:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:47:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:47:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:47:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:47:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:47:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'first_name_usua...', 'juan', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:47:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'favicon.ico' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('favicon.ico', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:48:33 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:48:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:48:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:48:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:48:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:09 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:09 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:09 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:09 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:10 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:12 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:14 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:14 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('Relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:19 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:44 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:44 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:49:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:240
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(240): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(51): GetModel::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(42): GetController::getDataSearch('relations', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 240
+[21-May-2024 10:52:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:52:37 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:52:37 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:52:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:52:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:52:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:52:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:52:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:52:39 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:52:39 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:52:39 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'api.relations' doesn't exist in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:26
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(26): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('relations', '*', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(58): GetController::getData('relations', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 26
+[21-May-2024 10:53:29 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'billing.id_usuarios_billing' in 'on clause' in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:313
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(313): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(61): GetModel::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(50): GetController::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 313
+[21-May-2024 10:53:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'billing.id_usuarios_billing' in 'on clause' in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:313
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(313): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(61): GetModel::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(50): GetController::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 313
+[21-May-2024 10:53:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'billing.id_usuarios_billing' in 'on clause' in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:313
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(313): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(61): GetModel::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(50): GetController::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 313
+[21-May-2024 10:53:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'billing.id_usuarios_billing' in 'on clause' in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:313
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(313): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(61): GetModel::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(50): GetController::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 313
+[21-May-2024 10:54:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'billing.id_usuarios_billing' in 'on clause' in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:313
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(313): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(61): GetModel::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(50): GetController::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'username_usuari...', 'clabijox', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 313
+[21-May-2024 10:54:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'billing.id_usuarios_billing' in 'on clause' in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:313
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(313): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(61): GetModel::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'id_usuarios', '1', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(50): GetController::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'id_usuarios', '1', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 313
+[21-May-2024 10:54:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'billing.id_usuarios_billing' in 'on clause' in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:313
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(313): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(61): GetModel::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'id_usuarios', '1', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(50): GetController::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'id_usuarios', '1', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 313
+[21-May-2024 10:54:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'billing.id_usuarios_billing' in 'on clause' in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:313
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(313): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(61): GetModel::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'id_usuarios', '1', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(50): GetController::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'id_usuarios', '1', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 313
+[21-May-2024 10:54:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'billing.id_usuarios_billing' in 'on clause' in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:313
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(313): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(61): GetModel::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'id_usuarios', '1', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(50): GetController::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'id_usuarios', '1', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 313
+[21-May-2024 10:54:49 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'billing.id_usuarios_billing' in 'on clause' in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:313
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(313): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(61): GetModel::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'id_usuarios', '1', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(50): GetController::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'id_usuarios', '1', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 313
+[21-May-2024 10:54:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'billing.id_usuarios_billing' in 'on clause' in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:313
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(313): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(61): GetModel::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'id_usuarios', '1', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(50): GetController::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'id_usuarios', '1', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 313
+[21-May-2024 10:54:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'billing.id_usuarios_billing' in 'on clause' in D:\Xampp\htdocs\MVC API\API1\models\get.model.php:313
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(313): PDOStatement->execute()
+#1 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(61): GetModel::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'id_usuarios', '1', NULL, NULL, NULL, NULL)
+#2 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(50): GetController::getRelDataSearch('billing,usuario...', 'billing,usuario...', '*', 'id_usuarios', '1', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#6 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\get.model.php on line 313
+[21-May-2024 11:36:53 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'usuarios' in 'where clause' in D:\Xampp\htdocs\MVC API\API1\models\connection.php:41
+Stack trace:
+#0 D:\Xampp\htdocs\MVC API\API1\models\connection.php(41): PDO->query('SELECT COLUMN_N...')
+#1 D:\Xampp\htdocs\MVC API\API1\models\get.model.php(11): Connection::getColumnsData('usuarios')
+#2 D:\Xampp\htdocs\MVC API\API1\controllers\get.controller.php(11): GetModel::getData('usuarios', '*', NULL, NULL, NULL, NULL)
+#3 D:\Xampp\htdocs\MVC API\API1\routes\services\get.php(76): GetController::getData('usuarios', '*', NULL, NULL, NULL, NULL)
+#4 D:\Xampp\htdocs\MVC API\API1\routes\routes.php(26): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\MVC API\API1\controllers\routes.controller.php(6): include('D:\\Xampp\\htdocs...')
+#6 D:\Xampp\htdocs\MVC API\API1\index.php(12): RoutesController->index()
+#7 {main}
+  thrown in D:\Xampp\htdocs\MVC API\API1\models\connection.php on line 41
